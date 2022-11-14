@@ -1,0 +1,241 @@
+@media only screen and (max-width: 2100px) {
+  #P-close {
+    display: none;
+  }
+  #F-close {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  #P-close {
+    display: none;
+  }
+  #F-close {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #G-Droop {
+    margin: 30px auto;
+    width: 900px;
+  }
+  #P-close {
+    display: block;
+  }
+  #G-close {
+    display: none;
+  }
+  #F-close {
+    display: block;
+  }
+}
+@media only screen and (max-width: 450px) {
+  /* body {
+      transition: .5s all;
+      background-color: lightblue;
+  } */
+  #G-Droop {
+    margin: 30px auto;
+    width: 450px;
+  }
+}
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  list-style-type: none;
+}
+
+.G-Margin-auto {
+  max-width: 1920px;
+  margin: 0px auto;
+}
+
+.G-flex {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.P-box {
+  margin: 13px 4px 0px 40px;
+  cursor: pointer;
+  width: 53px;
+  height: 24px;
+}
+
+.P-boxing {
+  z-index: 9999;
+  background-color: black;
+  margin-top: 7%;
+  width: 95%;
+  height: 24%;
+  border-radius: 100px;
+}
+
+.P-Logo {
+  width: 180.83px;
+  height: 26.6px;
+  position: absolute;
+  z-index: 111111;
+}
+
+.P-Search {
+  width: 18px;
+  height: 18px;
+}
+
+.G-flex-1 {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+}
+
+.G-flex-2 {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+ul li {
+  text-transform: uppercase;
+  padding: 11px;
+  cursor: pointer;
+  /* width: 33px; */
+  height: 16px;
+  margin-top: 23px;
+  margin-left: 82px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.P-relative {
+  position: relative;
+  width: 11px;
+  overflow: hidden;
+}
+
+.P-Hover-right {
+  position: absolute;
+  width: 1px;
+  background: black;
+  height: 8px;
+  left: 11px;
+  top: 10px;
+  transition: 0.5s all;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.P-Hover-left {
+  position: absolute;
+  width: 1px;
+  background: black;
+  height: 8px;
+  left: 5px;
+  top: 10px;
+  transition: 0.5s all;
+  transform: translate(-50%, -50%) rotate(320deg);
+}
+
+li:hover .P-Hover-right {
+  transform: translate(-50%, -50%) rotate(-405deg);
+}
+
+li:hover .P-Hover-left {
+  transform: translate(-50%, -50%) rotate(405deg);
+}
+
+li:hover .cleant {
+  width: 176px;
+  height: 173px;
+  transition: 0.5ms all;
+  /* top: 11px; */
+  border: 1px solid darkgrey;
+}
+
+.G-post {
+  position: relative;
+  transition: 0.5s all;
+}
+
+.cleant {
+  position: absolute;
+  overflow: hidden;
+  width: 0;
+  height: 0;
+  transition: all 2s ease;
+  background-color: #E9E9E9;
+}
+
+.P-Hover-Menu {
+  background-color: #E9E9E9;
+}
+
+.P-Hover-Menu:hover {
+  color: darkgrey;
+}
+
+.G-Hover-Menu {
+  white-space: nowrap;
+  margin: 1px;
+  padding: 8px;
+  width: 130px;
+  height: 27px;
+}
+
+.G-Hover-Menu:hover {
+  margin-left: 15px;
+}
+
+.P-popup {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+  height: 100vh;
+  padding: 30px;
+  position: absolute;
+  transition: 0.5s all;
+  left: -1299px;
+  background-color: white;
+}
+
+#Ace {
+  display: none;
+}
+
+#Ace:checked ~ .P-popup {
+  top: 0;
+  left: 0;
+}
+
+.close {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  transform: rotate(45deg);
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#Ace:active ~ .P-Logo {
+  top: 4px;
+  left: 53px;
+}
+
+.G-Droop {
+  margin: 50px auto;
+  /* width: 360px; */
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px auto;
+  width: 1200px;
+}
+
+.G-Droop div {
+  width: 360px;
+  margin: 11px;
+}

@@ -1,0 +1,41 @@
+@media only screen and (max-width: 2100px) {
+  #P-close {
+    display: none;
+  }
+  #F-close {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1500px) {
+  #P-close {
+    display: none;
+  }
+  #F-close {
+    display: none;
+  }
+}
+@media only screen and (max-width: 900px) {
+  #G-Droop {
+    margin: 30px auto;
+    width: 900px;
+  }
+  #P-close {
+    display: block;
+  }
+  #G-close {
+    display: none;
+  }
+  #F-close {
+    display: block;
+  }
+}
+@media only screen and (max-width: 450px) {
+  /* body {
+      transition: .5s all;
+      background-color: lightblue;
+  } */
+  #G-Droop {
+    margin: 30px auto;
+    width: 450px;
+  }
+}
